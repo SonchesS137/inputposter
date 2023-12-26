@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "content.css";
+@import "responsive.css";
+@font-face {
+  font-family: "Orbitron-Regular";
+  src: local("Orbitron-Regular"),
+    url("../fonts/Orbitron-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "SairaStencilOne-Regular";
+    src: local("SairaStencilOne-Regular"),
+    url("../fonts/SairaStencilOne-Regular.ttf") format("ttf");
+}

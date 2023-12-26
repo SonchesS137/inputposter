@@ -1,0 +1,92 @@
+@media only screen and (min-width: 1224px) {
+    .setka{
+        width: 47.92vw;
+height: 66.67vw;
+transform: rotate 45deg;
+margin-left: -2.08vw;
+position: absolute;
+top: 10.42vw;
+    }
+    /* Desktop */
+}
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* iPad */
+    .setka{
+        width: 450px;
+        height: 583px;
+        transform: rotate 45deg;
+        margin-left: -10px;
+    position: absolute;
+    top: 150px;}
+    
+    .setka3{
+    width: 481px;
+    height: 624px;
+    }
+}
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* iPad Portrait */
+    .setka{
+        width: 450px;
+        height: 583px;
+        transform: rotate 45deg;
+        margin-left: -10px;
+    position: absolute;
+    top: 150px;}
+    .setka3{
+    width: 481px;
+    height: 624px;
+    }
+}
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* iPad Landscape */
+    .setka{
+        width: 450px;
+        height: 583px;
+        transform: rotate 45deg;
+        margin-left: -10px;
+    position: absolute;
+    top: 150px;}
+    .setka3{
+    width: 481px;
+    height: 624px;
+    }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* iPhone */
+    .setka3{
+        width: 320px;
+    height: 420px;
+    }
+    .setka{
+        width: 157px;
+    height: 193px;
+    }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    /* iPhone Portrait */
+    .setka3{
+        width: 320px;
+    height: 420px;
+    }
+    .setka{
+        width: 157px;
+    height: 193px;
+    }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    /* iPhone Landscape */
+    .setka3{
+        width: 320px;
+    height: 420px;
+    }
+    .setka{
+        width: 157px;
+    height: 193px;
+    }
+      }

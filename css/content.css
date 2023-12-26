@@ -1,0 +1,293 @@
+html {
+    background: #121212;
+    overflow-x: hidden;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase
+  }
+
+
+.heading {
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes slide {
+    from {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+    }
+  }
+.t1 {color: #C12439;
+font-family: SairaStencilOne-Regular;
+font-size: 29.17vw;
+font-weight: 400;
+}
+
+.t2 {color: #A0E73F;
+    font-family: Orbitron-Regular;
+    font-size: 27.78vw;
+    font-weight: 400;
+}
+
+h2, h3 {
+color: #000;
+font-family: Orbitron;
+font-size: 6.94vw;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+display: block;
+background-size:auto;
+border-radius: 2.78vw;
+background: #B3B4B8;
+mix-blend-mode: color-dodge;
+}
+h2{
+top:0
+}
+h3 {
+right: 0;
+top: 20.83vw
+}
+
+h2:hover{color: #A0E73F; mix-blend-mode: exclusion}
+h3:hover{color: #A0E73F; mix-blend-mode: exclusion}
+
+
+.square1 {
+width: 48.61vw;
+height: 48.61vw;
+border-radius: 2.78vw;
+background: #B3B4B8;
+
+}
+
+.square2 {
+width: 65.97vw;
+height: 23.61vw;
+right: 0;
+border-radius: 2.78vw;
+background: #A0E73F;
+top: 34.72vw;
+position: absolute;
+}
+
+.setka {
+width: 47.92vw;
+height: 66.67vw;
+transform: rotate 45deg;
+margin-left: -2.08vw;
+position: absolute;
+top: 10.42vw;
+}
+
+
+.square3 {
+width: 97.78vw;
+height: 32.08vw;
+border-radius: 2.78vw;
+background: #A0E73F;
+mix-blend-mode: exclusion;
+margin: 0 auto
+}
+
+p1 {
+color: #B3B4B8;
+font-family: Orbitron;
+font-size: 6.94vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+position: absolute;
+top: 48.61vw;
+margin-left: 59.03vw;
+}
+
+
+p2 {
+color: #C12439;
+font-family: Saira Stencil One;
+font-size: 13.89vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+position: absolute;
+top: 56.94vw;
+right: 9.03vw;
+animation: blink 2s infinite
+}
+
+.move {
+    color: #000;    
+font-family: Orbitron;
+font-size: 5.56vw;
+font-weight: 400;
+line-height: normal;
+display: block;
+border-radius: 2.78vw;
+background: #A0E73F;
+mix-blend-mode: exclusion;
+margin: 0 auto;
+position: relative;
+animation: move 2s linear 1s infinite running;
+animation-play-state: running;
+width: 277.78vw;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+position: absolute;
+width: 100%;
+}
+
+
+.body {
+    color: #000000;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 6.94vw;
+    font-weight: 400;
+    line-height: normal;
+    width: 27.22vw;
+height: 27.78vw;
+flex-shrink: 0;
+border-radius: 2.78vw;
+background: #A0E73F;
+
+mix-blend-mode: exclusion;
+
+
+}
+
+.eyes {
+    color: #000000;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 6.94vw;
+    font-weight: 400;
+    line-height: normal;
+width: 27.22vw;
+height: 27.78vw;
+flex-shrink: 0;
+border-radius: 2.78vw;
+background: #B3B4B8;
+
+mix-blend-mode: exclusion;
+
+}
+.tatto {
+    color: #000000;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 6.94vw;    ;
+    font-weight: 400;
+    line-height: normal;
+    width: 27.22vw;
+height: 27.78vw;
+flex-shrink: 0;
+border-radius: 2.78vw;
+background: #C12439;
+
+mix-blend-mode: exclusion;
+
+
+}
+.blocks2 {
+    display: flex;
+    justify-content: space-between;
+position: absolute;
+    mix-blend-mode: exclusion;
+}
+.blocks2{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+    }
+  }
+
+.block {
+    width: 27.22vw;
+    height: 27.78vw;
+    flex-shrink: 0;
+    border-radius: 2.78vw;
+    background: #B3B4B8;
+
+}
+
+.move2 {
+    color: #C12439;
+
+font-family: Orbitron;
+font-size: 24.31vw;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+display: block;
+mix-blend-mode: exclusion;
+margin: 0 auto;
+animation: move2 2s linear 1s infinite running;
+animation-play-state: running;
+width: 277.78vw;
+position: relative;
+margin-top: 22.92vw;
+}
+p4 {
+    color:#A0E73F;
+font-family: Saira Stencil One;
+font-size: 27.78vw;
+font-weight: 400;
+line-height: normal;
+top: 138.89vw;
+right: 6.94vw;
+position: absolute;
+mix-blend-mode: exclusion;
+
+
+}
+
+.blink {
+    animation: blink 0.1s infinite; /* Параметры анимации */
+   }
+.setka3{
+    animation: blink 0.1s infinite;
+}
+.setka{
+    animation: blink 0.1s infinite;
+}
+
+
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
+
+   @keyframes move {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-85.35vw)}
+  }
+  @keyframes move2 {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-63.89vw)}
+  }
